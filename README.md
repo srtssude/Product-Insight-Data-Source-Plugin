@@ -1,6 +1,6 @@
 # Product Insight Data Source Plugin (Grafana)
 **Course:** MIS 233 – Fall 2025  
-**Developer:** Zeynep Sude Sarıtaş (2022502006)
+**Developer:** Zeynep Sude Sarıtaş 
 
 ## Overview
 Product Insight is a Grafana **Data Source plugin** that generates product analytics metrics (MRR, DAU, Orders, Churn) with:
