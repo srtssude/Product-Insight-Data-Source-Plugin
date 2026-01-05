@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "ProductInsight Datasource",
+  "id": "bogaziciunimis-productinsight-datasource",
+  "metrics": true,
+  "info": {
+    "description": "Fetches product KPIs (MRR, DAU, churn, orders) from a Flask REST API and enriches them with anomaly detection, growth index and a simple forecast + AI insights.",
+    "author": { "name": "Zeynep Sude Saritas" },
+    "keywords": ["datasource", "mrr", "dau", "churn", "forecast", "anomaly", "insights"],
+    "logos": { "small": "img/logo.svg", "large": "img/logo.svg" },
+    "links": [],
+    "screenshots": [
+      { "name": "Dashboard", "path": "img/screenshot.png" }
+    ],
+    "version": "1.0.1",
+    "updated": "2026-01-05"
+  },
+  "dependencies": { "grafanaDependency": ">=11.6.0", "plugins": [] },
+  "buildMode": "development"
+}
